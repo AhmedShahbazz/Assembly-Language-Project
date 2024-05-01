@@ -22,3 +22,33 @@ To run this program, you will need:
    ```bash
    git clone https://github.com/yourusername/restaurant-management-system.git
    cd restaurant-management-system
+   
+2. **Compile the Code**
+   Use your preferred assembler to compile the code. For example, if you are using MASM,
+   ## you might run:
+   ```bash
+   ml /Fl /Sn /Zi /DMASM /FeRestaurant.exe main.asm
+
+1. **Run the Program**
+   ```bash
+   Restaurant.exe
+
+
+## Usage
+
+Start the Program: Run the executable to start the program.
+Choose User Type: Select whether to log in as Admin or as a Customer.
+Admin: Requires a password. After login, you can view and manage data.
+Customer: Browse through various food menus, place orders, and view bills.
+
+
+## File Structure
+main.asm: The main assembly file containing all the logic.
+data/: Directory containing text files for user data, menu details, etc. (ensure you create this if it doesn't exist).
+README.md: This file.
+
+## Contributing
+Contributions to the Restaurant Management System are welcome. Please ensure to update tests as appropriate.
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
