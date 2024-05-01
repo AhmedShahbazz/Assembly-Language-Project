@@ -52,3 +52,6 @@ Contributions to the Restaurant Management System are welcome. Please ensure to 
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+## Contact
+Ahmed Shahbaz - aahmedch420567@gmail.com
